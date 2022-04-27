@@ -61,7 +61,7 @@ if lightline#colorscheme#background() ==# 'light'
 endif
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
-let s:p.normal.left = [ [ s:base03, s:blue ], [ s:base03, s:base00 ] ]
+let s:p.normal.left = [ [ s:base03, s:cyan ], [ s:base03, s:blue ] ]
 let s:p.normal.right = [ [ s:base03, s:base1 ], [ s:base03, s:base00 ] ]
 let s:p.inactive.right = [ [ s:base03, s:base00 ], [ s:base0, s:base02 ] ]
 let s:p.inactive.left =  [ [ s:base0, s:base02 ], [ s:base0, s:base02 ] ]
